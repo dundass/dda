@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dda</title>
+	
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+	
+	<script src="https://unpkg.com/vue"></script>
+	<script src="urlsearchparams.js"></script>
+	<script src="releases.js"></script>
+	<script src="release.js"></script>
+  </head>
+
+  <body onload="init()">
+  
+	<div id="wrapper">
+		<div id="logoDiv" class="image">
+		  <a href="index.html">
+			<img src="back.png" style="width: 15%" />
+		  </a>
+		  <h1>{{ catNum + ': ' + release.artist + ' - ' + release.title }}</h1>
+		</div>
+		<div id="bcDiv" class="bandcamp">
+		  <iframe style="border: 0; width: 100%; height: 120px;" :src="release.bandcampEmbed" seamless><a :href="release.bandcampUrl">{{ release.title + ' by ' + release.artist }}</a></iframe>
+		</div>
+		<div id="txtDiv" class="release-desc">
+		  <p v-for="paragraph in release.description">
+			{{ paragraph }}
+		  </p>
+		</div>
+		<!-- TODO - artist links -->
+		<div id="contactDiv" class="contact">
+		  <hr />
+		  <p> -
+			<a href="http://twitter.com/dontdronealone">twitter</a>
+			 -
+			<a href="http://dontdronealone.bandcamp.com">bandcamp</a>
+			 -
+			<a href="mailto:dontdronealone@gmail.com">email</a>
+			 -
+		  </p>
+		  <hr />
+		</div>
+	</div>
+    
+  </body>
+</html>

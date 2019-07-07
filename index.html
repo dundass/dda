@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<!-- on mobile, google says: Content wider than screen, Text too small to read, Viewport <meta /> not set, Clickable elements too close together -->
+<!-- sort out width overflow on all divs, also fix bandcamp iframe width on mobiles -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- integrate this with js dom style -->
+    <title>don't drone alone // ludicrous tapes + digital drones</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	
+	<script src="https://unpkg.com/vue"></script>
+    <script src="home.js"></script>
+	<script src="releases.js"></script>
+
+    <noscript>
+      <h1 style="text-align:center">pls enable javascript to see this site properly :)</h1>
+      <style>
+        @media screen and (orientation:landscape) {
+          div {
+            width: 65%;
+          }
+          #logoDiv {
+            width: 45%;
+          }
+          #logo {
+            width: 100%;
+            position: relative;
+            left: 0px;
+          }
+        }
+      </style>
+    </noscript>
+  </head>
+
+  <body onload="init()">
+  
+	<div id="wrapper">
+  
+		<div class="sidelines"></div>
+
+		<div id="logoDiv" class="logo">
+		  <img id="logo" src="logo.jpg" alt="dda logo" class="logo" />
+		</div>
+
+		<div id="txtDiv" class="mission">
+		  <hr />
+		  <h1>don't drone alone</h1>
+		  <hr />
+		  <p id="mission" class="mission">
+			<br /><br />
+			dda is a label formed on a mutual affection for drones and puns.<br /><br />
+			we have some talented friends. we like to turn them into tapes.<br /><br />
+			formed in the summer of 2015, we have accomplished nothing.<br /><br />
+			we are trying to foster a community of loud monoliths.<br /><br />
+			"ripples" by genesis plays in our hearts though we understand that it might not in yours.<br /><br />
+			you read this, now hear them.
+			<br /><br />
+		  </p>
+		</div>
+
+		<div id="releaseDiv">
+		  <a v-for="(release, key) in releases" :href="'release.html?release=' + key">
+			<img :id="key":src="key + '.jpg'" :alt="key + ' - ' + release.artist" class="release" />
+		  </a>
+		</div>
+
+		<div id="contactDiv">
+		  <hr />
+		  <p> -
+			<a href="http://twitter.com/dontdronealone">twitter</a>
+			 -
+			<a href="http://dontdronealone.bandcamp.com">bandcamp</a>
+			 -
+			<a href="mailto:dontdronealone@gmail.com">email</a>
+			 -
+		  </p>
+		  <hr />
+		</div>
+	</div>
+
+  </body>
+</html>
