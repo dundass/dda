@@ -16,23 +16,7 @@
 				  //var urlParams = new URLSearchParams(window.location.search);
 				  //this.release = urlParams.get('release');
 				  document.title = this.catNum + ' - ' + this.release.artist;
-				
-				  /*var w = window.innerWidth;
-				  var h = window.innerHeight;
-				  var divWidth = w;
-				  if(w > h) divWidth = h;
-				  var divHeight = h;
-				  // div style
-				  var divs = document.getElementsByTagName("div");
-				  //bcDiv
-				  divs[1].style.width = divWidth + "px";
-				  //divs[1].style.height = divHeight + "px";
-				  //txtDiv
-				  divs[2].style.width = divWidth * 0.9 + "px";
-				  //divs[2].style.height = divHeight + "px";
-				  //contactDiv
-				  divs[3].style.width = divWidth + "px";
-				  //divs[3].style.height = divHeight + "px";*/
+			
 			}
 		});
 		

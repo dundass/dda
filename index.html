@@ -43,7 +43,7 @@
 		<div class="sidelines"></div>
 
 		<div id="logoDiv" class="logo">
-		  <img id="logo" src="logo.jpg" alt="dda logo" class="logo" />
+		  <img id="logo" src="assets/logo.jpg" alt="dda logo" class="logo" />
 		</div>
 
 		<div id="txtDiv" class="mission">
@@ -64,7 +64,7 @@
 
 		<div id="releaseDiv">
 		  <a v-for="(release, key) in releases" :href="'release.html?release=' + key">
-			<img :id="key":src="key + '.jpg'" :alt="key + ' - ' + release.artist" class="release" />
+			<img :id="key":src="'assets/' + key + '.jpg'" :alt="key + ' - ' + release.artist" class="release" />
 		  </a>
 		</div>
 
