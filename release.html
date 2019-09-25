@@ -25,7 +25,8 @@
 		  <h1>{{ catNum + ': ' + release.artist + ' - ' + release.title }}</h1>
 		</div>
 		<div id="bcDiv" class="bandcamp">
-		  <iframe style="border: 0; width: 100%; height: 120px;" :src="release.bandcampEmbed" seamless><a :href="release.bandcampUrl">{{ release.title + ' by ' + release.artist }}</a></iframe>
+		  <iframe v-if="release.bandcampUrl && release.bandcampEmbed" style="border: 0; width: 100%; height: 120px;" :src="release.bandcampEmbed" seamless><a :href="release.bandcampUrl">{{ release.title + ' by ' + release.artist }}</a></iframe>
+		  <a v-if="release.bandcampUrl && !release.bandcampEmbed" :href="release.bandcampUrl" style="font-size: 1.5rem">bandcamp page</a>
 		</div>
 		<div id="txtDiv" class="release-desc">
 		  <p v-for="paragraph in release.description">

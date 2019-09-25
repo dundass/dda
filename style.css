@@ -79,6 +79,8 @@ div.sidelines {
 	pointer-events: none;
 }
 
+/* div.sidelines. */
+
 @media screen and (max-width: 992px) {
 	div.sidelines {
 		display: none;
@@ -103,7 +105,7 @@ hr {
 img.release {
   width: 30%;
   margin: 1%;
-  transition: filter 0.6s, opacity 0.6s;
+  transition: filter 0.4s, opacity 0.4s;
   /* width: 49%; */
 }
 

@@ -49,6 +49,14 @@
 			artwork: 'assets/dda006.jpg',
 			bandcampUrl: 'https://dontdronealone.bandcamp.com/album/dda666',
 			bandcampEmbed: 'https://bandcamp.com/EmbeddedPlayer/album=751468299/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/'
+		},
+		'dda007': {
+			artist: 'TAYSTII',
+			title: 'Clangistan X',
+			description: ['Clangistan has grown up with TAYSTII, both chronicling and side-stepping his progress on the decks. The project has swerved through emotional terrain, with different episodes considering music as a metaphor for pressure, a vessel for humour, and a survey of violence.', '(true – clangistan is a place that fosters unexpected alchemies and fascinating mutations. that said, it doesn’t necessarily involve *growing up* so much as it does *spiralling off into some vague direction somewhere*)', 'The genres have changed, but TAYSTII’s approach - to harmonise on the corners of sound that never meet - has remained the same. In his own words: ‘unnatural phalanxes and bottled spontaneity, chaotic as the river that flows’.', '(also true, those are my own words. on side a, you’ll find Clangistan X, supposedly the tenth iteration of this approach. it sandwiches a spread of artists who would make for a great dinner party; there are classic club cuts, slivers of hip-hop, slices of techno, indie thins, layered riddims, hell, one of the tracks is called ‘i want to eat you’. plenty of sounds that are all great to tayst, and seem to make a lot of sense sequenced together when dined on in clangistan)', 'In another world we’d be billing TAYSTII as our favourite From Soft speedrunner. Given the chance to make a b-side, he’s served up a slice of aural fandom for Sekiro: Shadows Die Twice.', '(unfortunately i’m more likely to start loads of new games rather than complete an actual run. the rhythm and musicality of its arcade-style combat is unrivalled)', 'With Sekiro In Clangistan, he blends together songs as sound effects, recreating palpable in-game sensations: perpetual movement and hyper-speed precision shine through the mix, played up through the metallic clashing of swords. With this breathless b-side, TAYSTII links mixing to Sekiro’s exhaustive shinobi combat, soaking up pressure only to parry and break posture.', '(sekiro is a masterpiece. Sekiro In Clangistan is, well, also a piece. as you spend time with its aesthetics, consider the cycle of birth, death and rebirth our hero is caught in. a melancholic longing for freedom, a struggle to reconcile it against honour-bound duties and a determination that sits in the heart of all adventurers – they’re all present here)'],
+			artwork: 'assets/dda007.jpg',
+			bandcampUrl: 'https://dontdronealone.bandcamp.com/album/clangistan-x',
+			bandcampEmbed: null
 		}
 	};
 	
