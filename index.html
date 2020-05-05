@@ -58,7 +58,7 @@
 		  </p>
 		</div>
 
-		<div id="releaseDiv">
+		<div id="releaseDiv" class="releases">
 		  <a v-for="(release, key) in releases" :href="'release.html?release=' + key">
 			<img :id="key":src="'assets/' + key + '.jpg'" :alt="key + ' - ' + release.artist" class="release" />
 		  </a>
