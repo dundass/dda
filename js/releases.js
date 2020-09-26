@@ -1,6 +1,19 @@
 (function() {
 	
 	window.releases = {
+		'dda010': {
+			artist: 'Theo Gowans',
+			title: 'Wresteling Spelt Wrong On The Flyer',
+			description: [
+				'Preface',
+				'We only know six things for sure about Territorial Gobbing. He was born; he attended school; he moved to Leeds; he married; he fathered three children (two boys, one girl); and he died - if records are to be believed, on the same date on which he was born (20th April).',
+				'Aside from that, everything we have learned about Mr. Gobbing is based on conjecture and piecemeal - some of it on outright lies. Many of the more byzantine voices in our field contend that Mr. Gobbing’s legacy is a house of built on sand, and that ‘Wresteling Spelt Wrong On The Flyer’ is the overgrown thicket which passes for its garden. We will afford them a seat at our table, but they will not lead our grace."',
+				'this is in fact the new tape from Territorial Gobbing, leeds-based noisemaker, curator and spelling enthusiast. mixing very sincere experiments with lots and lots of humour, his live shows somehow never repeat themselves. you may have seen him on one of his forays to diy venues across the uk, or at one of his performances with the many bands he\'s played in, including Thank, Gannet and No Disc. on his dda release he whacks cans, turns switches and wails into microphones, and plays music at basically every pitch decipherable to the human ear. frankly there is no one who does this stuff quite like him.'
+			],
+			artwork: 'assets/dda010.jpg',
+			bandcampUrl: 'https://dontdronealone.bandcamp.com/album/wresteling-spelt-wrong-on-the-flyer',
+			bandcampEmbed: 'https://bandcamp.com/EmbeddedPlayer/album=894447052/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/'
+		},
 		'dda009': {
 			artist: 'Kar Pouzi',
 			title: 'Red Sprite',
