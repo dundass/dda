@@ -1,6 +1,18 @@
 (function() {
 	
 	window.releases = {
+		'dda011': {
+			artist: 'doom roost',
+			title: 'your scene',
+			description: [
+				'a nonsense fanfic based on free software lore.',
+				'\'your scene\' is a love letter from one algorithm to another, presented here in audible form. it was uttered by 2 stretch programs, warp and audacity, to show appreciation for their darling, paulstretch. the process was aided by the flesh entity known as doom roost, penned at a time when all scenes worldwide became 800% slower. it\'s translated to tape for dda.',
+				'dear paulstretch, \nthis is our letter from algo 2 algo \ntake my transients \nwe stretched ourselves for u \nas a tribute to our cutest of ones \nlove, warp and audacity xox'
+			],
+			artwork: 'assets/dda011.png',
+			bandcampUrl: 'https://dontdronealone.bandcamp.com/album/your-scene',
+			bandcampEmbed: 'https://bandcamp.com/EmbeddedPlayer/album=1011338625/size=large/bgcol=333333/linkcol=9a64ff/tracklist=false/artwork=small/transparent=true/'
+		},
 		'dda010': {
 			artist: 'Theo Gowans',
 			title: 'Wresteling Spelt Wrong On The Flyer',
