@@ -1,6 +1,20 @@
 (function() {
 	
 	window.releases = {
+		'dda012': {
+			artist: 'M-G Dysfunction',
+			title: 'Nothing Clean, Nothing Pure',
+			description: [
+				'"Hi, I’m Fred. What we’re dealing with here is my second M-G Dysfunction album. It’s called ‘Nothing Clean, Nothing Pure’ and it’s coming out on 10th September via don’t drone alone.',
+				'‘Nothing Clean, Nothing Pure’ has been about five years in the making. Around 2016/2017 some stuff went wrong in my life - break-ups, health problems, nightmarish global political situation, all that shit. I went from being someone who was very driven and committed to someone who felt quite overwhelmed. I didn’t have any hope for the future (still don’t really tbh) and more to the point it seemed like anything I said or did, however well-intentioned, would only exacerbate the problems for myself and/or others. I became enervated and nihilistic and ultimately quite depressed.',
+				'Some of all that was channeled into ‘Complete Deletion’, the debut M-G Dysfunction album which I put out in early 2020. However, ‘Nothing Clean, Nothing Pure’ feels like the space in which I really tunnelled down into these experiences. In the midst of the mental war, the phrase ‘Nothing Clean, Nothing Pure’ kept knocking around my head, probably because it’s a pretty succinct summation of my worldview at the time. (Also, Nothing Clean are a band who did a split with Ona Snop, an absolutely stomp-ass grindcore group from Leeds. I sampled the split on the first track of ‘Complete Deletion’.)',
+				'The phrase ‘Nothing Clean, Nothing Pure’ was the germ of this record, but musically the album first developed from me figuring out how to perform ‘Complete Deletion’ live. That’s why both records begin with a drone. I wouldn’t say that the albums are actually all that similar though, sonically at least. And despite what I’ve said above about all the shit going on in my life when making this album, I don’t think of ‘Nothing Clean, Nothing Pure’ as a particularly bleak album either. Your call on that front though I guess.',
+				'People I’ve shown ‘Nothing Clean, Nothing Pure’ to have compared it to Jenny Hval and Stewart Lee. There’s definitely some Marie Davidson and JPEGMafia and Richard Dawson in there as well. You should also be aware that everything I do under the name of M-G Dysfunction is guided, to a greater or lesser extent, by Dean Blunt - make of that what you will."'
+			],
+			artwork: 'assets/dda012.jpg',
+			bandcampUrl: 'https://dontdronealone.bandcamp.com/album/nothing-clean-nothing-pure',
+			bandcampEmbed: 'https://bandcamp.com/EmbeddedPlayer/album=1964677733/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/'
+		},
 		'dda011': {
 			artist: 'doom roost',
 			title: 'your scene',
